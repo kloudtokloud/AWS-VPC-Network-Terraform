@@ -1,0 +1,23 @@
+# Ignore Terraform plan files
+*.tfplan
+*.tfstate
+*.tfstate.*.backup
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Ignore Terraform variables files which may contain sensitive information
+*.tfvars
+*.tfvars.json
+
+# Ignore override files which can be used to override default Terraform settings
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore directory created by Terraform
+*.terraform/

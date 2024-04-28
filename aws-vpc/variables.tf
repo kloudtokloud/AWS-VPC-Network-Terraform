@@ -3,7 +3,7 @@
 variable "region_name" {
   description = "Region name to launch VPC network"
   type        = string
-  # default     = "us-east-1"
+
 }
 
 variable "vpc_cidr_block" {

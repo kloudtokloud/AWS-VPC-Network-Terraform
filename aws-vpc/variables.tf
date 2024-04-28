@@ -21,19 +21,13 @@ variable "environment" {
 variable "public_subnets" {
   description = "Provider public subnets CIDR values"
   type        = map(any)
-  # default = {
-  #   "us-east-1a" = "10.10.0.0/24",
-  #   "us-east-1b" = "10.10.1.0/24"
-  # }
+
 }
 
 variable "private_subnets" {
   description = "Provide private subnets CIDR values"
   type        = map(any)
-#   default = {
-#     "us-east-1a" = "10.10.2.0/24",
-#     "us-east-1b" = "10.10.3.0/24"
-#   }
+
 }
 
 variable "pub_sub_tags" {
